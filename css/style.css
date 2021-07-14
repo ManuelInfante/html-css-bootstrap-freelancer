@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMONS */
+div.divider hr{
+    border: 3px solid;
+}
+
+div.divider i{
+    font-size: 1.5rem;
+}
+/* FINE COMMONS */
+
+/* HEADER */
+header{
+    background-color: #2C3F4F;
+    color: white;
+    text-transform: uppercase;
+}
+
+header .container span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+header .container ul li{
+    list-style: none;
+    color: white;
+}
+
+header .container ul li a{
+    color: white;
+    text-decoration: none;
+}
+/* FINE HEADER */
+
+/* HERO SECTION */
+#hero{
+    background-color: #1CBC9B;
+    color: white;
+}
+
+#hero .container img{
+    width: 100%;
+}
+
+#hero .container h1, #hero .container h2{
+    text-transform: uppercase;
+}
+
+#hero .container h1{
+    font-size: 3.5rem;
+}
+
+#hero .container h2{
+    font-size: 1.5rem;
+}
+/* FINE HERO SECTION */
