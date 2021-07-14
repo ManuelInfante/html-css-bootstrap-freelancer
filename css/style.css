@@ -18,7 +18,6 @@ div.divider i{
 header{
     background-color: #2C3F4F;
     color: white;
-    text-transform: uppercase;
 }
 
 header .container span{
@@ -47,10 +46,6 @@ header .container ul li a{
     width: 100%;
 }
 
-#hero .container h1, #hero .container h2{
-    text-transform: uppercase;
-}
-
 #hero .container h1{
     font-size: 3.5rem;
 }
@@ -59,3 +54,39 @@ header .container ul li a{
     font-size: 1.5rem;
 }
 /* FINE HERO SECTION */
+
+/* PORTFOLIO */
+#portfolio{
+    text-transform: uppercase;
+    color: #2C3F4F;
+}
+
+#portfolio h2{
+    font-size: 2.5rem;
+}
+
+#portfolio img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+/* FINE PORTFOLIO */
+
+/* Sezione About */
+#about{
+    background-color: #1CBC9B;
+    color: white;
+}
+
+#about h2{
+    font-size: 2.5rem;
+}
+
+#about button{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px 15px;
+}
+/* Sezione About */
