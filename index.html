@@ -20,14 +20,14 @@
 </head>
 <body>
     <header>
-        <div class="container py-3">
+        <div class="container-md py-3">
             <div class="row justify-content-between my-auto">
                 <div class="col-auto">
-                    <span>Start Bootstrap</span>
+                    <span class="text-uppercase">Start Bootstrap</span>
                 </div>
 
                 <nav class="col-auto">
-                    <ul class="row my-auto h-100 align-items-center">
+                    <ul class="row my-auto h-100 align-items-center text-uppercase">
                         <li class="col-auto">
                             <a href="">Portfolio</a>
                         </li>
@@ -47,21 +47,21 @@
 
     <main>
         <section id="hero">
-            <div class="container py-5 text-center">
+            <div class="container-md py-5 text-center">
                 <div class="row justify-content-center">
-                    <div class="col-2">
+                    <div class="col-lg-2 col-md-4 col-7">
                         <img src="img/avatar.svg" alt="">
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
-                    <div class="col-6">
+                <div class="row justify-content-center pt-2">
+                    <div class="col-auto">
                         <h1 class="text-uppercase">start bootstrap</h1>
                     </div>
                 </div>
 
                 <div class="divider row justify-content-center">
-                    <div class="col-2">
+                    <div class="col-md-2 col-3">
                         <hr>
                     </div>
 
@@ -69,12 +69,12 @@
                         <i class="bi bi-star-fill"></i>
                     </div>
 
-                    <div class="col-2">
+                    <div class="col-md-2 col-3">
                         <hr>
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center text-uppercase pt-3">
                     <div class="col-auto">
                         <h2>graphic artist</h2>
                     </div>
@@ -91,7 +91,7 @@
         </section>
 
         <section id="portfolio">
-            <div class="container py-5 text-center">
+            <div class="container-md py-5 text-center">
                 <div class="row">
                     <div class="col">
                         <h2 class="text-uppercase">portfolio</h2>
@@ -99,7 +99,7 @@
                 </div>
 
                 <div class="divider row justify-content-center">
-                    <div class="col-2">
+                    <div class="col-md-2 col-3">
                         <hr>
                     </div>
 
@@ -107,33 +107,33 @@
                         <i class="bi bi-star-fill"></i>
                     </div>
 
-                    <div class="col-2">
+                    <div class="col-md-2 col-3">
                         <hr>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <img src="img/cabin.png" alt="">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <img src="img/cake.png" alt="">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <img src="img/circus.png" alt="">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <img src="img/game.png" alt="">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <img src="img/safe.png" alt="">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <img src="img/submarine.png" alt="">
                     </div>
                 </div>
@@ -161,13 +161,13 @@
                 </div>
 
                 <div class="row text-start justify-content-center my-3">
-                    <div class="col-5">
+                    <div class="col-md-5 col-10">
                         <p>
                             freelancer is a free boostrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and Javascript as well as optional LESS stylesheets for easy customization.
                         </p>
                     </div>
 
-                    <div class="col-5">
+                    <div class="col-md-5 col-10">
                         <p>
                             Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your ptojects, this template is the perfect starting point!
                         </p>
@@ -175,7 +175,7 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-2">
+                    <div class="col-auto">
                         <button>
                             <i class="fas fa-download"></i>
 
@@ -186,10 +186,116 @@
             </div>
         </section>
         
+        <section id="form_lead">
+            <div class="container py-5 text-center">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-uppercase">Contact me</h2>
+                    </div>
+                </div>
+
+                <div class="divider row justify-content-center">
+                    <div class="col-2">
+                        <hr>
+                    </div>
+
+                    <div class="col-auto">
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+
+                    <div class="col-2">
+                        <hr>
+                    </div>
+                </div>
+
+                <form class="row justify-content-center">
+                    <input class="col-md-10 col-8 py-2" type="text" placeholder="Name">
+                    <input class="col-md-10 col-8 py-2" type="email" placeholder="Email Address">
+                    <input class="col-md-10 col-8 py-2" type="tel" placeholder="Phone Number">
+                    <textarea class="col-md-10 col-8 py-2" rows="4" placeholder="Message"></textarea>
+
+                    <div class="row justify-content-start px-0 mt-2">
+                        <input class="col-auto offset-md-1 offset-2 py-2" type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer>
+        <section id="footer-top" class="py-5">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col text-center">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="text-uppercase">location</h2>
+                            </div>
 
+                            <div class="col-12">
+                                <p>2215 Jhon Daniel Drive Clark, MO 54243</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col text-center py-5 py-md-0">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <h2 class="text-uppercase">around the web</h2>
+                            </div>
+
+                            <div class="col-auto">
+                                <a class="border border-white px-3 py-3">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-auto">
+                                <a class="border border-white px-3 py-3">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-auto">
+                                <a class="border border-white px-3 py-3">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-auto">
+                                <a class="border border-white px-3 py-3">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col text-center">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="text-uppercase">about freelancer</h2>
+                            </div>
+
+                            <div class="col-12">
+                                <p>
+                                    Freelance is a free to use, open source Bootstrap Theme created by <a href="">Start Bootstrap</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section id="footer-bottom" class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <span>Copyright &#169; Your website 2019</span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 
     <!-- Import Bootstrap JS -->
